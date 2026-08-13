@@ -1,8 +1,36 @@
-#FOR DATABASE FILE 
 '''
 
-     Use before database.py download the  tabulate
-     This command : pip install tabulate
+#-----------user_service.py-------------
 
+      To run user_service.py 
+      create first this table in mysql:
+      Query:
+
+      Its store the all user its register
+
+      CREATE TABLE member (
+         email VARCHAR(100),
+         login_pass varchar(100),
+         num varchar(10),
+         roll varchar(8)
+     );
+
+     Its store the information of only student 
+
+     CREATE TABLE student (
+         email VARCHAR(100),
+         login_pass varchar(100),
+         num varchar(10),
+         roll varchar(8)
+     );
+
+     Its store the inforemation about inly teacher
+
+     CREATE TABLE teacher (
+         email VARCHAR(100),
+         login_pass varchar(100),
+         num varchar(10),
+         roll varchar(8)
+     );
      
 '''
