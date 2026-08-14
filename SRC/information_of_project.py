@@ -34,3 +34,18 @@
      );
      
 '''
+'''
+
+#------------document_servise.py------------
+
+    return the file path the function name is 
+    open_file_workflow 
+    only run this file and catch the file_path in variable 
+
+    Also file path store in tha database table 
+    Query:
+    CREATE TABLE file_path (
+		  file_path VARCHAR(500)
+    );
+
+'''
