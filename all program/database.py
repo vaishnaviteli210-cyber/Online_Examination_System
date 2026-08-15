@@ -1,8 +1,3 @@
-
-import mysql.connector
-from mysql.connector import Error
-from config import DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER
-
 import mysql.connector
 from mysql.connector import Error
 
@@ -14,8 +9,7 @@ from config import (
     DB_USER
 )
 
-
-<<<<<<< Updated upstream
+<<<<<<< HEAD
 =======
 import mysql.connector
 from mysql.connector import Error
@@ -29,7 +23,7 @@ from config import (
 )
 
 
->>>>>>> Stashed changes
+>>>>>>> 7eb0cf4d6805aa8d05b98150bbd074320f60472f
 def get_connection_db():
     try:
         connection = mysql.connector.connect(

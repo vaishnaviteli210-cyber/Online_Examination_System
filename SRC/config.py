@@ -9,9 +9,12 @@ DB_USER = "root"
 DB_PASSWORD = "root123"
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 #Default path for file 
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 USERNAME = os.getlogin()
@@ -24,9 +27,13 @@ DEFAULT_SEARCH_PATHS = [
     os.path.join(HOME_DIRECTORY, "Downloads"),
     HOME_DIRECTORY
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ]
 
 
+=======
+]
+>>>>>>> Stashed changes
 =======
 ]
 >>>>>>> Stashed changes

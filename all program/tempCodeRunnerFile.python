@@ -1,0 +1,10 @@
+from database import get_connection_db
+
+
+db = get_connection_db()
+
+if db:
+    print("Connection test successful.")
+    db.close()
+else:
+    print("Connection test failed.")
